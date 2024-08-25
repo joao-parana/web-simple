@@ -25,6 +25,7 @@ cp src/main/webapp/WEB-INF/web.xml tomcat/webapps/myapp/WEB-INF/
 # O redeploy da aplicação pode ser feito sem a necessidade de reiniciar o Tomcat. Use o
 # comando abaixo para atualizar o arquivo web.xml e reiniciar o contexto da aplicação
 touch tomcat/webapps/myapp/WEB-INF/web.xml
-tomcat/bin/catalina.sh run
+tomcat/bin/catalina.sh run &
+curl http://my-server:5006/myapp/home.html
 ```
 
