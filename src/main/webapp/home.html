@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Bem-vindo!</h1>
+    <a href="database.html">Banco de dados</a><br>
+    <a href="analysis.html">Análises</a><br><br><br>
+    <a href="log_out">Logout</a><br>
+
+    <script>
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            ret = results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+            console.log("getUrlParameter(" + name + ") returns -> '" + ret + "'");
+        }
+    </script>
+</body>
+</html>

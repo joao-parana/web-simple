@@ -1,0 +1,50 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"codesnap.backgroundColor": "#FFFFFF",
+		"codesnap.transparentBackground": false,
+		"codesnap.containerPadding": "2px",
+		"codesnap.showWindowControls": true,
+		"codesnap.roundedCorners": true,
+		"codesnap.shutterAction": "save",
+		"editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+		"editor.fontLigatures": true,
+		"editor.fontWeight": "normal",
+		"editor.formatOnSave": false,
+		"files.eol": "\n",
+		"files.trimTrailingWhitespace": true,
+		"[markdown]": {
+			"files.trimTrailingWhitespace": true,
+			"editor.formatOnSave": true
+		},
+		"notebook.editorOptionsCustomizations": {
+			"editor.autoClosingBrackets": "languageDefined"
+		},
+		"autoDocstring.quoteStyle": "\"\"\"",
+		"autoDocstring.docstringFormat": "docblockr",
+		"java.compile.nullAnalysis.mode": "automatic",
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"java.saveActions.organizeImports": true,
+		"[java]": {
+			"editor.codeActionsOnSave": {
+				"source.organizeImports": "always"
+			},
+			"editor.formatOnSave": true
+		},
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"redhat.java",
+			"shengchen.vscode-checkstyle",
+			"SonarSource.sonarlint-vscode",
+			"vscjava.vscode-maven"
+		]
+	}
+}
